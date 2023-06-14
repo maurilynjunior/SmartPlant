@@ -32,7 +32,7 @@
                 "-falign-functions=4",
                 "-std=gnu++17"
             ],
-            "intelliSenseMode": "gcc-x64",
+            "intelliSenseMode": "${default}",
             "includePath": [
                 "C:\\Users\\desktop\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\3.1.2\\tools\\sdk\\include",
                 "C:\\Users\\desktop\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\3.1.2\\tools\\sdk\\lwip2\\include",
@@ -48,7 +48,9 @@
                 "c:\\users\\desktop\\appdata\\local\\arduino15\\packages\\esp8266\\tools\\xtensa-lx106-elf-gcc\\3.1.0-gcc10.3-e5f9fec\\xtensa-lx106-elf\\include\\c++\\10.3.0\\backward",
                 "c:\\users\\desktop\\appdata\\local\\arduino15\\packages\\esp8266\\tools\\xtensa-lx106-elf-gcc\\3.1.0-gcc10.3-e5f9fec\\lib\\gcc\\xtensa-lx106-elf\\10.3.0\\include",
                 "c:\\users\\desktop\\appdata\\local\\arduino15\\packages\\esp8266\\tools\\xtensa-lx106-elf-gcc\\3.1.0-gcc10.3-e5f9fec\\lib\\gcc\\xtensa-lx106-elf\\10.3.0\\include-fixed",
-                "c:\\users\\desktop\\appdata\\local\\arduino15\\packages\\esp8266\\tools\\xtensa-lx106-elf-gcc\\3.1.0-gcc10.3-e5f9fec\\xtensa-lx106-elf\\include"
+                "c:\\users\\desktop\\appdata\\local\\arduino15\\packages\\esp8266\\tools\\xtensa-lx106-elf-gcc\\3.1.0-gcc10.3-e5f9fec\\xtensa-lx106-elf\\include",
+                "C:\\Users\\desktop\\OneDrive\\Documents\\Arduino\\SmartPlant",
+                "C:\\Users\\desktop\\OneDrive\\Documents\\Arduino\\libraries\\WiFiManager"
             ],
             "forcedInclude": [
                 "C:\\Users\\desktop\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\3.1.2\\cores\\esp8266\\Arduino.h"
@@ -379,7 +381,30 @@
                 "__ATOMIC_ACQ_REL=4",
                 "__ATOMIC_RELEASE=3",
                 "USBCON"
-            ]
+            ],
+            "compilerPathInCppPropertiesJson": "C:\\Users\\desktop\\AppData\\Local\\Arduino15\\packages\\esp8266\\tools\\xtensa-lx106-elf-gcc\\3.1.0-gcc10.3-e5f9fec\\bin\\xtensa-lx106-elf-g++",
+            "mergeConfigurations": false,
+            "browse": {
+                "path": [
+                    "C:\\Users\\desktop\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\3.1.2\\tools\\sdk\\include",
+                    "C:\\Users\\desktop\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\3.1.2\\tools\\sdk\\lwip2\\include",
+                    "C:\\Users\\desktop\\AppData\\Local\\Temp\\arduino\\sketches\\862C1891913912C5248959463918C7C2\\core",
+                    "C:\\Users\\desktop\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\3.1.2\\cores\\esp8266",
+                    "C:\\Users\\desktop\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\3.1.2\\variants\\generic",
+                    "C:\\Users\\desktop\\OneDrive\\Documents\\Arduino\\libraries\\DHT_sensor_library",
+                    "C:\\Users\\desktop\\OneDrive\\Documents\\Arduino\\libraries\\Blynk\\src",
+                    "C:\\Users\\desktop\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\3.1.2\\libraries\\ESP8266WiFi\\src",
+                    "C:\\Users\\desktop\\OneDrive\\Documents\\Arduino\\libraries\\Adafruit_Unified_Sensor",
+                    "c:\\users\\desktop\\appdata\\local\\arduino15\\packages\\esp8266\\tools\\xtensa-lx106-elf-gcc\\3.1.0-gcc10.3-e5f9fec\\xtensa-lx106-elf\\include\\c++\\10.3.0",
+                    "c:\\users\\desktop\\appdata\\local\\arduino15\\packages\\esp8266\\tools\\xtensa-lx106-elf-gcc\\3.1.0-gcc10.3-e5f9fec\\xtensa-lx106-elf\\include\\c++\\10.3.0\\xtensa-lx106-elf",
+                    "c:\\users\\desktop\\appdata\\local\\arduino15\\packages\\esp8266\\tools\\xtensa-lx106-elf-gcc\\3.1.0-gcc10.3-e5f9fec\\xtensa-lx106-elf\\include\\c++\\10.3.0\\backward",
+                    "c:\\users\\desktop\\appdata\\local\\arduino15\\packages\\esp8266\\tools\\xtensa-lx106-elf-gcc\\3.1.0-gcc10.3-e5f9fec\\lib\\gcc\\xtensa-lx106-elf\\10.3.0\\include",
+                    "c:\\users\\desktop\\appdata\\local\\arduino15\\packages\\esp8266\\tools\\xtensa-lx106-elf-gcc\\3.1.0-gcc10.3-e5f9fec\\lib\\gcc\\xtensa-lx106-elf\\10.3.0\\include-fixed",
+                    "c:\\users\\desktop\\appdata\\local\\arduino15\\packages\\esp8266\\tools\\xtensa-lx106-elf-gcc\\3.1.0-gcc10.3-e5f9fec\\xtensa-lx106-elf\\include",
+                    "${workspaceFolder}"
+                ],
+                "limitSymbolsToIncludedHeaders": true
+            }
         }
     ]
 }

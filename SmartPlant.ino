@@ -1,6 +1,6 @@
 #include <DHT.h>
-
 #include <BlynkSimpleEsp8266.h>
+
 
 #define DHTPIN 2     // pino de dados do sensor
 #define DHTTYPE DHT11   // DHT 11
@@ -20,6 +20,21 @@ char status;
 
 void setup() {
   Serial.begin(9600);
+/*
+  WifiManager wm;
+
+  bool res;
+  
+  res = wm.autoConnect("SmartPlant","12345678");
+
+  if(!res){
+    Serial.println("Falha na conexão!");
+    delay(3000);
+    ESP.restart();
+  } else{
+    Serial.println("Conectado com sucesso!");
+  }
+*/
   pinMode(A0, INPUT);
   // Delay pra não dar problema na inicialização
   delay(1500); 
@@ -65,7 +80,7 @@ void LeituraUmidade(){
   Blynk.virtualWrite(V2, Umidade);
 
   if(Umidade < 30){
-    Blynk.logEvent("baixahumidade","Umidade do solo baixa!");
+    Blynk.logEvent("baixaumidade","Umidade do solo baixa!");
     WidgetLED LED(V3);
     LED.on();
   } else{
