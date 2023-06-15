@@ -70,10 +70,18 @@ void LeituraDHT() {
 }
 
 void LeituraUmidade(){
+  //Liga o pino A0
+  digitalWrite(A0, HIGH);
+  delay(500);
+
   int ValorADC;
   float Umidade;
 
   ValorADC = analogRead(A0);
+
+  //Desliga o pino A0 para diminuir o desgaste do sensor
+  digitalWrite(A0, LOW);
+  delay(500);
 
   Umidade = map(ValorADC, 300, 1024, 100, 0);
 
